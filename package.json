@@ -1,0 +1,23 @@
+{
+  "name": "Natours",
+  "version": "1.0.0",
+  "description": "Portfolio Project",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevSergiu/Natours.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevSergiu/Natours/issues"
+  },
+  "homepage": "https://github.com/DevSergiu/Natours#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
