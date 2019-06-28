@@ -248,13 +248,16 @@ body {
   .row .col-1-of-3 {
     width: calc((100% - 2 * 6rem) / 3); }
   .row .col-2-of-3 {
-    width: calc( 2 * ((100% - 2 * 6rem) / 3) + 6rem); }
+    width: calc(
+ 2 * ((100% - 2 * 6rem) / 3) + 6rem); }
   .row .col-1-of-4 {
     width: calc((100% - 3 * 6rem) / 4); }
   .row .col-2-of-4 {
-    width: calc( 2 * ((100% - 3 * 6rem) / 4) + 6rem); }
+    width: calc(
+ 2 * ((100% - 3 * 6rem) / 4) + 6rem); }
   .row .col-3-of-4 {
-    width: calc( 3 * ((100% - 3 * 6rem) / 4) + 6rem * 2); }
+    width: calc(
+ 3 * ((100% - 3 * 6rem) / 4) + 6rem * 2); }
 
 .section-about {
   background-color: #f7f7f7;
@@ -263,9 +266,9 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(157, 230, 97, 0.3), rgba(228, 200, 61, 0.4)), url(../../img/nat-4.jpg);
+  background-image: linear-gradient(to right bottom, rgba(157, 230, 97, 0.3), rgba(228, 200, 61, 0.4)), url(../img/nat-4.jpg);
   background-size: cover;
   transform: skewY(-7deg);
-  margin-top: -10rem; }
+  margin-top: -11.5rem; }
   .section-features > * {
     transform: skewY(7deg); }
