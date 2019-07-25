@@ -19,6 +19,21 @@
       opacity: 0;
     }
   }
+  &--green {
+    background-color: $color-primary;
+    color: $color-grey-dark;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all 0.2s;
+    position: relative;
+
+    &::after {
+      background-color: $color-white;
+    }
+  }
 
   &:active {
     transform: translateY(-0.1rem);
@@ -28,6 +43,13 @@
   &--white {
     background-color: $color-white;
     color: $color-grey-dark;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all 0.2s;
+    position: relative;
 
     &::after {
       background-color: $color-white;
